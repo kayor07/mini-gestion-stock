@@ -1,0 +1,91 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    padding: 5vh;
+}
+.register_btn{
+    background-color: rgb(27, 27, 195);
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 3vh;
+    cursor: pointer;
+}
+.register_form{
+    background-color: aqua;
+}
+label{
+    font-size: 3vh;
+}
+input{
+    border: none;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    height: 5vh;
+    width: 35vh;
+    background-color: aliceblue;
+}
+input::placeholder{
+    font-size: 2vh;
+}
+input:hover{
+    color: blue;
+}
+.formsubmit{
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    border: 1px solid gray;
+    font-size: 3vh;
+    margin: 3vh;
+    margin-left: 18vh;
+    cursor: pointer;
+}
+.productlist__container{
+    width: 90%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.thead{
+    border-bottom: 3px solid black;
+     
+}
+th{
+    font-size: 4vh;
+}
+tbody.Productlist tr{
+    font-size: 2vh;
+}
+tbody.Productlist td{
+    text-align: center;
+    font-size: 3vh;
+    padding-top: 2vh;
+}
+.btn__update{
+    border-radius: 3px;
+    background-color: #ef8d58;
+    color: white;
+    border: 1px solid gray;
+    font-size: 2vh;
+    cursor: pointer;
+    margin: 3vh;
+    font-weight: bold;
+}
+.btn__delete{
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    font-size: 2vh;
+    cursor: pointer;
+    margin: 3vh;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<main>
+    <div class="register">
+        <button class="register_btn">Add product</button>
+    </div>
+    <div class="form">
+        <form hidden class="register_form">
+            <table class="table_form">
+                <tr>
+                    <td><label for="productname">Product Name</label></td>
+                    <td><input type="text" name="" id="productname" placeholder="Product Name" required> <br></td>
+                </tr>
+                <tr>
+                    <td><label for="marketprice">Market Price</label></td>
+                    <td><input type="number" name="" id="marketprice" placeholder="Market Price" required> <br></td>
+                </tr>
+                <tr>
+                    <td><label for="sellingprice">Selling Price</label></td>
+                    <td><input type="number" name="" id="sellingprice" placeholder="Selling Price"required> <br></td>
+                </tr>
+                <tr>
+                    <td><label for="stockquantity">Stock Quantity</label></td>
+                    <td><input type="number" name="" id="stockquantity"placeholder="Stock Quantity" required> <br></td>
+                </tr>
+            </table>
+            <button type="submit" class="formsubmit">Submit</button>
+        </form>
+    </div>
+    <div class="productlist__container">
+        <table>
+            <thead>
+                <tr class="thead">
+                    <th>Product Name</th>
+                    <th>Market Price</th>
+                    <th>Selling Price</th>
+                    <th>Stock Quantity</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody class="Productlist">
+                
+                </tbody>
+                
+
+            </tbody>
+        </table>
+    </div>
+</main>
+    <script src="./index.js"></script>
+</body>
+</html>
